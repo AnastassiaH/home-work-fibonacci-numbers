@@ -2,7 +2,7 @@ button.onclick = function(){
     
     var number = parseFloat(document.getElementById("num").value);   
 
-    document.getElementById("solutionByLoop").innerHTML = "Solution by array " + gettingNumberByArray(number);
+    document.getElementById("solutionByLoop").innerHTML = "Solution by loop " + gettingNumberByArray(number);
     document.getElementById("solutionByArray").innerHTML = "Solution by array " + gettingNumberByArray(number);
     document.getElementById("solutionByRecursion").innerHTML = "Solution by recursion " + gettingNumberByRecursion(number); 
 
